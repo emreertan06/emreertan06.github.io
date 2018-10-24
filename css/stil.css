@@ -1,0 +1,40 @@
+#bar{
+  
+  background-color: #500500;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    object-position: center;
+  }
+    #topbar{
+  
+  background-color: #500500;
+     width: 100%;
+	padding: 15px;
+  
+  }
+  .active{
+	  text-decoration : none;
+	  color : #e7e874;
+  }
+  a {
+	  text-decoration : none;
+  }
+  #sub{
+		margin-bottom : 175px;
+  }
+  #bar a {
+    display: inline-block;
+    object-position: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
